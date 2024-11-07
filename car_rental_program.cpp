@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+
+
 //The Strategy Pattern is used to define different strategies for sending notifications (Firebase or AWS) and allows them to be//i used interchangeably.
 //The NotificationService interface acts as the "Strategy" interface, and FirebaseNotification and AWSNotification are the concrete strategies.
 //By passing an instance of a NotificationService to CarRental, we can change the notification behavior at runtime without modifying the CarRental class.
